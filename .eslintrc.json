@@ -1,0 +1,31 @@
+{
+    "env": {
+      "browser": true,
+      "es6": true,
+      "node": true
+    },
+    "extends": ["airbnb","prettier", "plugin:node/recommended"],
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "ecmaVersion": 2018,
+      "sourceType": "module"
+    },
+    "plugins": ["prettier"],
+    "rules": {
+        "no-unused-vars":"warn",
+        "no-console":"off",
+        "func-names":"off",
+        "no-process-exit":"off",
+        "object-shorthand":"warn",
+        "class-methods-use-this":"off",
+        "prefer-destructuring":"off",
+        "no-plusplus":"off",
+        "prefer-promise-reject-errors":"off",
+      "strict": 1,
+      "indent": ["off", 4],
+      "semi": ["off", "always"]
+    }
+  }
